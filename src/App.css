@@ -1,0 +1,64 @@
+.App header h1 {
+   text-align: center;
+}
+.to-do-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.to-do-list-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.to-do-list-form .to-do__input {
+    flex-grow: 2;
+    height: 50px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-indent: 10%;
+    font-size: 20px;
+}
+.to-do-list-form .to-do__button {
+    flex-grow: 1;
+    height: 55px;
+    border: 2px solid grey;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 5%;  
+}
+.to-do__button:hover {
+    color: black;
+}
+.to-do-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.to-do-item {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+.to-do-item__text {
+    width: 70%;
+    font-size: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.to-do-item__button {
+    width: 30%;
+    height: 55px;
+    border: 2px solid grey;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 10%;  
+}
